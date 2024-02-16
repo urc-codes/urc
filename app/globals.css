@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+
+.rep {
+  transition: fill 0.3s ease; /* Add a transition for a smooth color change */
+ stroke: #00375C;
+  fill:white; 
+}
