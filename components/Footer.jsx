@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export const Footer = () => {
@@ -17,16 +18,16 @@ export const Footer = () => {
   </nav> 
   <nav>
     <h6 className="footer-title">URC</h6> 
-    <a className="link link-hover">Home</a>
-    <a className="link link-hover">About Us</a>
-    <a className="link link-hover">Projects</a>
-    <a className="link link-hover">Gallery</a>
+    <Link href={'/'} className="link link-hover">Home</Link>
+    <Link href={'/about'} className="link link-hover">About Us</Link>
+    <Link href={'/project'} className="link link-hover">Projects</Link>
+    <Link href={'/gallery'} className="link link-hover">Gallery</Link>
   </nav> 
   <nav>
     <h6 className="footer-title">Contact Us</h6> 
-    <a className="link link-hover">Bono region - Sunyani, Fiapre</a>
-    <a className="link link-hover"> +233 54300295</a>
-    <a className="link link-hover">admin@uenrrobotics.org</a>
+    <p className="link link-hover">Bono region - Sunyani, Fiapre</p>
+    <p className="link link-hover"> +233 54300295</p>
+    <p className="link link-hover">admin@uenrrobotics.org</p>
   </nav>
 </footer>
    </>

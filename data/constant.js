@@ -1,4 +1,4 @@
-import { benedicta, fatima, gabby, john, malik, obed } from "@/public/images";
+import { benedicta, fatima, gabby, global1, global2, global3, global4, greengrow, john, malik, national1, national2, national3, national4, obed, stem1, stem2, stem3, stem4 } from "@/public/images";
 
 const teamsprofiles = [
     {
@@ -96,4 +96,74 @@ const executivesprofiles =[
     
 ]
 
-export {teamsprofiles, numbersofclubs, executivesprofiles}
+const steminages = [
+    {
+        id:'1',
+        image:stem1,
+    },
+    {
+        id:'2',
+        image:stem2,
+    },
+    {
+        id:'3',
+        image:stem3,
+    },
+    {
+        id:'4',
+        image:stem4,
+    },
+]
+const globalinages = [
+    {
+        id:'1',
+        image:global1,
+    },
+    {
+        id:'2',
+        image:global2,
+    },
+    {
+        id:'3',
+        image:global3,
+    },
+    {
+        id:'4',
+        image:global4,
+    },
+]
+const nationalinages = [
+    {
+        id:'1',
+        image:national1,
+    },
+    {
+        id:'2',
+        image:national2,
+    },
+    {
+        id:'3',
+        image:national3,
+    },
+    {
+        id:'4',
+        image:national4,
+    },
+]
+const projectitems = [
+    {
+        id:'1',
+        projectname:'Project Curiosity',
+        projectdate:'November 2021',
+        projectimage:global2,
+        projectdocument:'https://drive.google.com/file/d/1n39n-YU7c38_F0rNVRxUTJJajrwWTAH2/view',
+    },
+    {
+        id:'2',
+        projectname:'Green Grow',
+        projectdate:'July 2021',
+        projectimage:greengrow,
+        projectdocument:'https://drive.google.com/file/d/1_iG6wbxmP5hRFFsQbULwP8oDAHq0pG9L/view',
+    }
+]
+export {teamsprofiles, numbersofclubs, executivesprofiles,steminages, nationalinages, globalinages,projectitems}
