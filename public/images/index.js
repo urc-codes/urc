@@ -21,6 +21,8 @@ import national2 from '../images/National2.png';
 import national3 from '../images/National3.png';
 import national4 from '../images/National4.png';
 import greengrow from '../images/greengrow.png'
+import alpha from '../images/alpha.jpg'
 
 export {urclogo, c1,c2,c3, gabby,malik,benedicta,obed,john,fatima,greengrow,
-     stem1,stem2,stem3,stem4,global1,global2,global3,global4,national1,national2,national3,national4}
+     stem1,stem2,stem3,stem4,global1,global2,global3,global4,national1,national2,national3,national4,
+alpha}

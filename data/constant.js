@@ -1,4 +1,4 @@
-import { benedicta, fatima, gabby, global1, global2, global3, global4, greengrow, john, malik, national1, national2, national3, national4, obed, stem1, stem2, stem3, stem4 } from "@/public/images";
+import { alpha, benedicta, fatima, gabby, global1, global2, global3, global4, greengrow, john, malik, national1, national2, national3, national4, obed, stem1, stem2, stem3, stem4 } from "@/public/images";
 
 const teamsprofiles = [
     {
@@ -92,6 +92,14 @@ const executivesprofiles =[
         portfolio:'Organizer',
         program:'Electrical & Electronic Engineering',
         image:john,
+    },
+    {
+        id:'7',
+        fullname:'Amoako Kofi Justice',
+        level:'400',
+        portfolio:'Public Relations Officer',
+        program:'Information Technology',
+        image:alpha,
     },
     
 ]
